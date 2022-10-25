@@ -28,6 +28,13 @@ header{
     border: solid black 1px;
     text-align: center;
 }
+
+.col-25-1{
+    height: 350px;
+    width: 25%;
+    background-color: orange;
+    border: solid black 1px;
+}
 .col-50{
     height: 40px;
     width: 50%;
@@ -79,15 +86,39 @@ background-color: green;
     background-color: lightgrey;
 }
 
-.col-30{
+.col-20{
     background-color: pink;
     border: 1px solid black;
-    height: 200px;
-    width: 30%;
+    height: 350px;
+    width: 20%;
 }
 
 .col-70{
     background-color: lightcoral;
     width: 70%;
-    height: 200px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.background-dark-grey{
+    background-color: darkgrey;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+.column{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: auto;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    margin: 0 auto;
+    justify-content: space-around;
 }
